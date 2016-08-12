@@ -1,0 +1,115 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+body, input{
+	background: #2D2735;
+}
+header,p, span, input,.name,a,i {
+	color: white;
+}
+header,.unocentro, .texto, .box, .box2,footer{
+	background: #1C1821;
+}
+.dos{
+	margin: 1% 0%;
+}
+/*HEADER*/
+.fa-bars{
+	display: none;
+}
+header img{
+	width: 50%;
+}
+.menu{
+	margin: 5% 0% 0% 0%;
+}
+header a{
+	padding: 0% 0% 0% 3%;
+}
+header a, .dos a{
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+}
+a:hover, i:hover{
+	color: orange;
+}
+/*SECTION1*/
+.uno{
+	background: url(../image/header-image.jpg);
+	background-size: cover;
+	padding: 12%;
+}
+
+.titulo{
+	color: #F7BA6A;
+	font-family: 'Courgette';
+}
+span {
+	padding: 0% 3%;
+}
+/*SECTION2*/
+img, iframe {
+	width: 100%;
+}
+nav{
+	padding-bottom: 15px;
+}
+/*section3*/
+.box{
+	padding: 5% 0%;
+}
+input{
+	border:none;
+	width: 85%;
+	padding: 3px 15px;
+}
+.p-14{
+	padding: 14px;
+}
+.box2{
+	margin: 5% 0%;
+}
+.redsoc{
+	border-radius: 50%;
+	padding: 2% 3%;
+	background-color:#2D2735
+}
+.redsoc:hover{
+	border-radius: 50%;
+	padding: 2% 3%;
+	background-color:white; 
+}
+/*FOOTER*/
+footer{
+	padding: 1%;
+}
+.footer{
+	color: #2D2329;
+}
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+	.menu{
+		display: none;
+	}
+	.bigbox{
+		display: none;
+	}
+	.col-12-sm{
+		width: 96%;
+	}
+	.fa-bars{
+		color: white;
+		float: right;
+		display: inline-block;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	
+}
